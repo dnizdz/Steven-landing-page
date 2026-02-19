@@ -1,0 +1,90 @@
+﻿{
+  "meta": {
+    "title": "Ourtale | Creative Branding Agency"
+  },
+  "theme": {
+    "primaryColor": "#9f7a5a",
+    "secondaryColor": "#f2e6d7",
+    "backgroundColor": "#f9f4ef",
+    "fontFamily": "'Playfair Display', serif",
+    "headingSize": "2.4rem",
+    "bodySize": "1rem"
+  },
+  "nav": {
+    "brand": "ourtale",
+    "brandLabel": "Ourtale home",
+    "ariaLabel": "Primary",
+    "menuLabel": "Menu",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Portfolio", "href": "#works" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "About Us",
+    "title": "We are a creative branding studio",
+    "subtitle": "Designing brand stories with heart, craft, and clarity.",
+    "body": "We love shaping identities and experiences for founders who want their brand to feel timeless and human.",
+    "tagline": "life - imagine - create",
+    "ctaText": "Consultation",
+    "ctaLink": "#contact",
+    "ctas": [
+      { "text": "Consultation", "link": "#contact", "variant": "solid" },
+      { "text": "Credential", "link": "#works", "variant": "ghost" }
+    ]
+  },
+  "services": {
+    "title": "What We Do",
+    "intro": "We do whatever it takes to get your brand the attention it deserves. Our team offers a spectrum of complementary services for bold and thoughtful storytelling."
+  },
+  "features": [
+    {
+      "title": "Branding",
+      "description": "Build a brand identity that feels personal, memorable, and unmistakably yours."
+    },
+    {
+      "title": "Social Media Management",
+      "description": "Create consistent, eye-catching visuals and messaging that amplifies your voice."
+    },
+    {
+      "title": "Photography",
+      "description": "Capture your brand personality through editorial imagery and product stories."
+    },
+    {
+      "title": "Videography",
+      "description": "Tell cinematic stories with dynamic motion, sound, and narrative direction."
+    },
+    {
+      "title": "Reels & TikTok Management",
+      "description": "Plan, shoot, and edit short-form content built for engagement and growth."
+    }
+  ],
+  "works": {
+    "title": "Our Works",
+    "intro": "Take a closer look at our portfolio and the craft behind each collaboration.",
+    "ctaText": "More About Our Work",
+    "ctaLink": "#works",
+    "items": [
+      { "label": "foto 1" },
+      { "label": "foto 2" },
+      { "label": "foto 3" },
+      { "label": "dstnya" },
+      { "label": "video 1" },
+      { "label": "video 2" },
+      { "label": "video 3" },
+      { "label": "dstnya" }
+    ]
+  },
+  "consultation": {
+    "title": "Free Consultation",
+    "body": "Let's talk about the possibilities for your business growth with us. Book your free consultation now.",
+    "ctas": [
+      { "text": "Get In Touch", "link": "#contact", "variant": "solid" },
+      { "text": "Credential", "link": "#works", "variant": "ghost" }
+    ]
+  },
+  "footer": {
+    "text": "Ourtale (c) 2026. All rights reserved."
+  }
+}

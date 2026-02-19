@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" data-attr="aria-label:nav.brandLabel">
+          <span data-text="nav.brand"></span>
+        </a>
+        <nav class="site-nav" data-attr="aria-label:nav.ariaLabel">
+          <ul class="nav-list" data-list="nav.links"></ul>
+        </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="sr-only" data-text="nav.menuLabel"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+      <div id="primary-menu" class="nav-drawer" hidden>
+        <ul class="nav-list" data-list="nav.links"></ul>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="about">
+        <div class="container hero-grid">
+          <div class="hero-illustration" aria-hidden="true">
+            <div class="arch"></div>
+            <div class="hero-mark" data-text="nav.brand"></div>
+            <div class="hero-tagline" data-text="hero.tagline"></div>
+          </div>
+          <div class="hero-content">
+            <p class="eyebrow" data-text="hero.eyebrow"></p>
+            <h1 data-text="hero.title"></h1>
+            <p class="subtitle" data-text="hero.subtitle"></p>
+            <p class="body" data-text="hero.body"></p>
+            <div class="cta-row" data-ctas="hero.ctas"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container">
+          <h2 data-text="services.title"></h2>
+          <p class="section-intro" data-text="services.intro"></p>
+        </div>
+        <div class="services-stream">
+          <div class="vine" aria-hidden="true"></div>
+          <div class="container services-grid" data-list="features"></div>
+        </div>
+      </section>
+
+      <section class="works" id="works">
+        <div class="container">
+          <h2 data-text="works.title"></h2>
+          <p class="section-intro" data-text="works.intro"></p>
+          <a class="pill" data-text="works.ctaText" data-attr="href:works.ctaLink"></a>
+        </div>
+        <div class="container works-grid" data-list="works.items"></div>
+      </section>
+
+      <section class="consultation" id="contact">
+        <div class="container consultation-inner">
+          <div class="chat-illustration" aria-hidden="true"></div>
+          <div class="consultation-content">
+            <h2 data-text="consultation.title"></h2>
+            <p class="section-intro" data-text="consultation.body"></p>
+            <div class="cta-row" data-ctas="consultation.ctas"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p data-text="footer.text"></p>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
