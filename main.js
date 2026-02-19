@@ -90,8 +90,11 @@ const applyTheme = (theme) => {
   root.style.setProperty("--secondary-color", theme.secondaryColor);
   root.style.setProperty("--background-color", theme.backgroundColor);
   root.style.setProperty("--font-family", theme.fontFamily);
-  root.style.setProperty("--heading-size", theme.headingSize);
-  root.style.setProperty("--body-size", theme.bodySize);
+  if (theme.fontSizes) {
+    Object.entries(theme.fontSizes).forEach(([key, value]) => {
+      root.style.setProperty(`--size-${key}`, value);
+    });
+  }
 };
 
 const setDocumentTitle = (config) => {

@@ -7,8 +7,24 @@
     "secondaryColor": "#f2e6d7",
     "backgroundColor": "#f9f4ef",
     "fontFamily": "'Playfair Display', serif",
-    "headingSize": "2.4rem",
-    "bodySize": "1rem"
+    "fontSizes": {
+      "body": "1rem",
+      "brand": "1.7rem",
+      "nav": "0.95rem",
+      "hero-mark": "2.15rem",
+      "tagline": "0.85rem",
+      "hero-title": "1.4rem",
+      "eyebrow": "1.8rem",
+      "hero-subtitle": "1.05rem",
+      "hero-body": "1rem",
+      "cta": "0.9rem",
+      "section-title": "2.4rem",
+      "section-body": "0.95rem",
+      "card-title": "1.7rem",
+      "card-body": "0.9rem",
+      "work-label": "0.9rem",
+      "footer": "0.85rem"
+    }
   },
   "nav": {
     "brand": "ourtale",
@@ -23,9 +39,9 @@
   },
   "hero": {
     "eyebrow": "About Us",
-    "title": "We are a creative branding studio",
-    "subtitle": "Designing brand stories with heart, craft, and clarity.",
-    "body": "We love shaping identities and experiences for founders who want their brand to feel timeless and human.",
+    "title": "We are the first creative branding agency AI based that built to help brands grow with content that’s fast, consistent, and unmistakably on-brand.",
+    "subtitle": "We combine an AI content engine with branding experts who understand your guidelines, so you achieve premium output without conventional agency overhead.",
+    "body": "Let’s make your brand impossible to ignore.",
     "tagline": "life - imagine - create",
     "ctaText": "Consultation",
     "ctaLink": "#contact",
@@ -36,28 +52,28 @@
   },
   "services": {
     "title": "What We Do",
-    "intro": "We do whatever it takes to get your brand the attention it deserves. Our team offers a spectrum of complementary services for bold and thoughtful storytelling."
+    "intro": "We'll do whatever it takes to get your brand the attention it deserves, not just reach but real relevance. We deliver a full spectrum of creative branding services with an AI-powered workflow to create deeper, stronger, and longer-lasting connections between your brand, your ideas, and your audience."
   },
   "features": [
     {
       "title": "Branding",
-      "description": "Build a brand identity that feels personal, memorable, and unmistakably yours."
+      "description": "We give your products and services meaning by shaping how people perceive your brand—through voice, tone, content pillars, and visual consistency."
     },
     {
       "title": "Social Media Management",
-      "description": "Create consistent, eye-catching visuals and messaging that amplifies your voice."
+      "description": "Eye-catching visuals build awareness—but a structured content program wins attention consistently. AI accelerates production, and our experts curate the output so it stays high-quality and on-brand."
     },
     {
       "title": "Photography",
-      "description": "Capture your brand personality through editorial imagery and product stories."
+      "description": "We transform your simple product photos into professional, brand-consistent visuals. With AI-powered enhancement and expert curation, we refine backgrounds, lighting, color, and composition to match your brand guidelines—so every product looks premium across every post."
     },
     {
       "title": "Videography",
-      "description": "Tell cinematic stories with dynamic motion, sound, and narrative direction."
+      "description": "We transform your simple product photos into professional commercial product videos. We craft strong hooks, clean motion, and clear messaging so your product looks premium, your brand looks credible, and your content drives action."
     },
     {
       "title": "Reels & TikTok Management",
-      "description": "Plan, shoot, and edit short-form content built for engagement and growth."
+      "description": "We support you from concept to execution such as storylines, copywriting, trend/audio recommendations, and content guidance."
     }
   ],
   "works": {
